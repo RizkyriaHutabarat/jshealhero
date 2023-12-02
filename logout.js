@@ -13,7 +13,7 @@ const logout = () => {
         // Menghapus token dari cookie
         document.cookie =
           "Authorization= ; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-        // Redirect ke halaman sign-in.html
+        // Redirect ke halaman signin.html
         window.location.href = "../signin.html";
       }
     });
